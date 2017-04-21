@@ -1,0 +1,124 @@
+html
+   head
+      title zeo
+      meta(name="viewport" content="width=device-width, initial-scale=1")
+      meta(charset="utf-8")
+      link(href='css/reset.css', rel='stylesheet')
+      link(href='css/font.css', rel='stylesheet')
+      link(href='css/style.min.css', rel='stylesheet')
+   body
+      header
+         .container
+            a(href='#').logo
+            p <span>3</span> easy steps to clean your mac!
+      section.main
+         .container
+            .main--left
+               .steps
+                  .step
+                     i.step-icon.icon-download--green
+                     span STEP 1:
+                     p Click <a href='#'>“Download now”</a>
+                  .step
+                     i.step-icon.icon-mechanic
+                     span STEP 2:
+                     p Click <b>”Run”</b> or <b>“Save”</b>
+                  .step
+                     i.step-icon.icon-time
+                     span STEP 3:
+                     p Scan your Mac
+               .btn-box
+                  button.btn-downoload Download now
+                     span
+                        i
+                  a(href='#') or Click here to download
+            .main--right
+               img(src=('img-content/mac.jpg'))
+               a(href='#')
+                  img(src=('img-content/mac1.png'))
+               a(href='#')
+                  img(src=('img-content/mac2.jpg'))
+         .main-partners
+            .container
+               a(href='#')
+                  img(src=('img-content/Cnn.png'))
+               a(href='#')
+                  img(src=('img-content/Forbes.png'))
+               a(href='#')
+                  img(src=('img-content/Cnn.png'))
+               a(href='#')
+                  img(src=('img-content/Forbes.png'))
+      section.services
+         .container
+            h2.services-title What we have to keep your Mac <a>clean and safe</a>
+            .hexagons
+               - for (var x = 1; x < 18; x++)
+                  div.hexagon-box
+                     div(class="hexagon hexagon-#{ x }" data-text='#{ x }')
+                        img(src=('img-content/icon__sprire_big1.png'))
+            .services-box
+               .services-box-img
+                  img(src=('img-content/icon__sprire_big1.png'))
+                  p
+               .services-box-description
+                  p
+                  button.btn-transperent Download Now
+
+      section.review
+         .container
+            h2.review-title Checkout Some Reviews from our Users
+            .review-item
+               .stars
+               .review-item-description
+                  p “I just renewed my subscription with Mc. Keeper. </br> I like it, I feel my computer is well protected. ”
+               .review-item-bottom
+                  .review-author Michael T
+                  .review-adress Oxfordshire, United Kingdom,
+                  .review-date 12 May 2016
+            .review-item
+               .stars
+               .review-item-description
+                  p “I just renewed my subscription with Mc. Keeper. </br> I like it, I feel my computer is well protected. ”
+               .review-item-bottom
+                  .review-author Michael T
+                  .review-adress Oxfordshire, United Kingdom,
+                  .review-date 12 May 2016
+            .review-item
+               .stars
+               .review-item-description
+                  p “I just renewed my subscription with Mc. Keeper.”
+               .review-item-bottom
+                  .review-author Michael T
+                  .review-adress Oxfordshire, United Kingdom,
+                  .review-date 12 May 2016
+      section.results
+         .container
+               .results-stats
+                  a(href='#')
+                     img(src=('img-content/stats.jpg'))
+               .btn-box
+                     button.btn-downoload Download now
+                        span
+                           i
+                     a(href='#') or Click here to download
+               .results-stats
+                  a(href='#')
+                     img(src=('img-content/mac1.png'))
+      footer
+         nav
+            .container
+               a(href='#') App
+               a(href='#') Privacy policy
+               a(href='#') Company
+               a(href='#') EULA
+               a(href='#') Support
+               a(href='#') Uinstall
+         .footer-bottom
+            .container
+               p *According to our Internal statistics
+               p ** This statement is solely our subjective opinion and is used purely for advertising and promotional purposes.
+               p You may be presented with an optional offer(s) during installation <a href='#'> learn more > </a>
+               p.copyright Copyright © 2016 Kromtech Aslliance Corp. All rights reserved.
+
+      script(type='text/javascript', src='js/jquery.js')
+      script(type='text/javascript', src='js/script.js')
